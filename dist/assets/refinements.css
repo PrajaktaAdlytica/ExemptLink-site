@@ -34,3 +34,26 @@
 .home-hero .hero-lead,.home-hero .hero-note,.home-hero .map-scope,.home-hero .map-source,.home-hero .sequence-controls,.page-hero .hero-lead,.page-hero .hero-note,.page-hero .breadcrumbs,.hero-aside p{color:#2E4439}.home-hero .eyebrow,.page-hero .eyebrow,.page-hero .breadcrumbs a{color:#263B36}.sequence-replay{background:rgba(255,255,255,.55)}
 @media(hover:none),(pointer:coarse){.sequence-replay{min-height:44px}}
 .question-tint .section-heading p,.question-tint .evidence-questions a>span:not(.step-num){color:#40594F}.question-tint .step-num{color:#245B50}
+
+/* Five distinct evidence surfaces; the original still state stays readable. */
+.workflow-evidence-section{position:relative;isolation:isolate;border-block:1px solid #263B3614}
+.evidence-transaction-linkage{background:#DCE9DE;background-image:radial-gradient(ellipse at 5% 5%,#F1F5DD,transparent 70%)}
+.evidence-certificate-remediation{background:#EEDFD3;background-image:radial-gradient(ellipse at 90% 10%,#F8EEDF,transparent 65%)}
+.evidence-jurisdiction-checklists{background:#EAE4C9;background-image:radial-gradient(ellipse at 10% 90%,#F6F0DF,transparent 70%)}
+.evidence-audit-packets{background:#D9E8E8;background-image:radial-gradient(ellipse at 10% 0%,#E9F3EB,transparent 65%)}
+.evidence-monthly-reconciliation{background:#E4DFF0;background-image:radial-gradient(ellipse at 90% 0%,#F1EAF2,transparent 65%)}
+.workflow-evidence-section .detail-object{background:#FAFCFA;border-color:#B5C8BF;box-shadow:0 20px 55px #263B3608}
+.workflow-evidence-section .sequence-controls{color:#40594F}
+[data-workflow-hero] .scene-svg .settle,[data-workflow-hero] .scene-svg .trace,[data-workflow-hero] .scene-svg .bar{animation:none}
+.sequence-running:is([data-workflow-hero],[data-workflow-evidence]) [data-motion-stage]{animation:wf-register 850ms var(--ease) var(--stage-delay,0ms) both}
+.sequence-running:is([data-workflow-hero],[data-workflow-evidence]) [data-motion-stage="ink"]{animation-name:wf-ink}
+.sequence-running:is([data-workflow-hero],[data-workflow-evidence]) [data-motion-stage="trace"]{stroke-dasharray:900;animation:wf-trace 1200ms var(--ease) var(--stage-delay,0ms) both}
+.sequence-running:is([data-workflow-hero],[data-workflow-evidence]) [data-motion-stage="bar"]{transform-box:fill-box;transform-origin:left center;animation:wf-bar 1100ms var(--ease) var(--stage-delay,0ms) both}
+.sequence-running:is([data-workflow-hero],[data-workflow-evidence]) [data-motion-stage="line"]{transform-origin:left center;animation:wf-bar 900ms var(--ease) var(--stage-delay,0ms) both}
+.workflow-evidence .mini-stack .stack-sheet.back{animation:none}.workflow-evidence .mini-bars i{transform-origin:left center}
+@keyframes wf-register{from{opacity:.82;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes wf-ink{from{opacity:.78}to{opacity:1}}
+@keyframes wf-trace{from{stroke-dashoffset:900;opacity:.4}to{stroke-dashoffset:0;opacity:1}}
+@keyframes wf-bar{from{transform:scaleX(.08);opacity:.65}to{transform:scaleX(1);opacity:1}}
+@media(prefers-reduced-motion:reduce){.sequence-running:is([data-workflow-hero],[data-workflow-evidence]) [data-motion-stage]{animation:none!important;transform:none!important;opacity:1!important;stroke-dashoffset:0!important}}
+.reduced-motion :is([data-workflow-hero],[data-workflow-evidence]) [data-motion-stage]{animation:none!important;transform:none!important;opacity:1!important;stroke-dashoffset:0!important}

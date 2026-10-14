@@ -1,0 +1,119 @@
+{
+  "desktop": [
+    {
+      "slug": "transaction-linkage",
+      "hero": {
+        "animation": "wf-register",
+        "stages": 18
+      },
+      "evidence": {
+        "bg": "rgb(220, 233, 222)",
+        "metadataAnimation": "wf-register",
+        "overflow": false,
+        "replays": 2,
+        "stages": 9
+      }
+    },
+    {
+      "slug": "certificate-remediation",
+      "hero": {
+        "animation": "wf-register",
+        "stages": 24
+      },
+      "evidence": {
+        "bg": "rgb(238, 223, 211)",
+        "metadataAnimation": "wf-register",
+        "overflow": false,
+        "replays": 2,
+        "stages": 11
+      }
+    },
+    {
+      "slug": "jurisdiction-checklists",
+      "hero": {
+        "animation": "wf-register",
+        "stages": 20
+      },
+      "evidence": {
+        "bg": "rgb(234, 228, 201)",
+        "metadataAnimation": "wf-register",
+        "overflow": false,
+        "replays": 2,
+        "stages": 9
+      }
+    },
+    {
+      "slug": "audit-packets",
+      "hero": {
+        "animation": "wf-register",
+        "stages": 25
+      },
+      "evidence": {
+        "bg": "rgb(217, 232, 232)",
+        "metadataAnimation": "wf-register",
+        "overflow": false,
+        "replays": 2,
+        "stages": 8
+      }
+    },
+    {
+      "slug": "monthly-reconciliation",
+      "hero": {
+        "animation": "wf-bar",
+        "stages": 11
+      },
+      "evidence": {
+        "bg": "rgb(228, 223, 240)",
+        "metadataAnimation": "wf-register",
+        "overflow": false,
+        "replays": 2,
+        "stages": 12
+      }
+    }
+  ],
+  "mobile": [
+    {
+      "detailWidth": 350,
+      "heroMobile": "block",
+      "overflow": false,
+      "owner": "Indirect-tax director or tax reviewer",
+      "replayHeight": 44,
+      "route": "/workflows/transaction-linkage/"
+    },
+    {
+      "detailWidth": 350,
+      "heroMobile": "block",
+      "overflow": false,
+      "owner": "Tax owner; adviser where appointed",
+      "replayHeight": 44,
+      "route": "/workflows/certificate-remediation/"
+    },
+    {
+      "detailWidth": 350,
+      "heroMobile": "block",
+      "overflow": false,
+      "owner": "Tax reviewer with jurisdiction context",
+      "replayHeight": 44,
+      "route": "/workflows/jurisdiction-checklists/"
+    },
+    {
+      "detailWidth": 350,
+      "heroMobile": "block",
+      "overflow": false,
+      "owner": "Tax lead responsible for audit preparation",
+      "replayHeight": 44,
+      "route": "/workflows/audit-packets/"
+    },
+    {
+      "detailWidth": 350,
+      "heroMobile": "block",
+      "overflow": false,
+      "owner": "Controller and indirect-tax lead",
+      "replayHeight": 44,
+      "route": "/workflows/monthly-reconciliation/"
+    }
+  ],
+  "pauseVerified": true,
+  "consoleErrors": [],
+  "build": "TypeScript + Vite + 30 route static check passed"
+}
