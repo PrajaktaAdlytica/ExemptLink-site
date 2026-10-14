@@ -1,0 +1,35 @@
+EXEMPTLINK / EXEMPT-SALES GAP CHECKLIST
+Research-stage guide / 14 October 2026
+
+One state, 100 permissioned historical sales and a named tax owner.
+
+1. Scope
+Agree permission, state, seller entity, period and sample rule.
+
+2. Transaction facts
+Preserve invoice ID, buyer legal entity, sale date, jurisdiction, value and source row.
+
+3. Candidate evidence
+Record source ID/version, named entity, form, state and source span.
+
+4. Dates
+Separate actual expiry, blanket period, receipt and unverified renewal metadata.
+
+5. State/form
+Record dated guidance, missing fields, unknowns and not-applicable checks.
+
+6. Baseline
+Compare against existing suite alerts and the usual reviewer process.
+
+7. Tax-owner review
+Classify true gaps, false warnings, omissions and uncertainties.
+
+8. Next action
+Assign owner; outreach needs separate approved scripts and recipients.
+
+9. Decision
+Proceed on previously unidentified, remediable gaps and a funded pilot; stop if incumbent closes job at lower cost.
+
+Informational only. No VAT or income-tax scope. Do not share sensitive records through this website.
+NY: https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/exemption_certificates_for_sales_tax.htm
+Florida: https://floridarevenue.com/taxes/taxesfees/Pages/annual_resale_certificate_sut.aspx
