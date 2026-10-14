@@ -1,0 +1,21 @@
+{
+  "route": "/pilot/",
+  "scorecards": 3,
+  "decision_cards": 2,
+  "hover_lift_px": 4,
+  "keyboard_link_focus_verified": true,
+  "viewports": [
+    [
+      775,
+      804
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "mobile_card_width_px": 350,
+  "horizontal_overflow": false,
+  "console_errors": [],
+  "reduced_motion": "Transforms/transitions disabled by CSS"
+}
