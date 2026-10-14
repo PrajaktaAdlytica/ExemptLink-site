@@ -125,18 +125,18 @@
 
 /* Resource reading room: a quiet ledger surface and individual folio cards. */
 .resources-tools{background-color:#E2E9DA;background-image:radial-gradient(ellipse at 0 0,#F4F0DC,transparent 68%),linear-gradient(#263B3605 1px,transparent 1px);background-size:auto,100% 80px}
-.resources-tools .content-card{--resource-accent:#32776B;--resource-wash:#E7F0E5;position:relative;isolation:isolate;overflow:hidden;background:#FCFDF9;border-color:#BAC9BC;transition:transform 280ms var(--ease),border-color 280ms var(--ease),box-shadow 280ms var(--ease)}
-.resources-tools .content-card:nth-child(2){--resource-accent:#426B70;--resource-wash:#E4EEEE}.resources-tools .content-card:nth-child(3){--resource-accent:#8A5534;--resource-wash:#F0E5D4}
-.resources-tools .content-card:before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 100% 0%,var(--resource-wash),transparent 75%);opacity:0;transition:opacity 300ms var(--ease)}
-.resources-tools .content-card:after{content:'';position:absolute;inset:0 0 auto;height:3px;background:var(--resource-accent);opacity:0;transform:scaleX(.12);transform-origin:left;pointer-events:none;transition:opacity 250ms,transform 350ms var(--ease)}
-.resources-tools .content-card h3{transition:color 250ms}.resources-tools .content-card .icon-slot{transition:transform 250ms var(--ease)}
-.resources-tools .content-card.reveal.seen{animation:none}
-.resources-tools .content-card:focus-within{border-color:var(--resource-accent);box-shadow:0 16px 36px #263B3618}
-.resources-tools .content-card:focus-within:before,.resources-tools .content-card:focus-within:after{opacity:1}.resources-tools .content-card:focus-within:after{transform:scaleX(1)}.resources-tools .content-card:focus-within h3{color:var(--resource-accent)}
+:is(.resources-tools,.gap-context) .content-card{--resource-accent:#32776B;--resource-wash:#E7F0E5;position:relative;isolation:isolate;overflow:hidden;background:#FCFDF9;border-color:#BAC9BC;transition:transform 280ms var(--ease),border-color 280ms var(--ease),box-shadow 280ms var(--ease)}
+:is(.resources-tools,.gap-context) .content-card:nth-child(2){--resource-accent:#426B70;--resource-wash:#E4EEEE}:is(.resources-tools,.gap-context) .content-card:nth-child(3){--resource-accent:#8A5534;--resource-wash:#F0E5D4}
+:is(.resources-tools,.gap-context) .content-card:before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 100% 0%,var(--resource-wash),transparent 75%);opacity:0;transition:opacity 300ms var(--ease)}
+:is(.resources-tools,.gap-context) .content-card:after{content:'';position:absolute;inset:0 0 auto;height:3px;background:var(--resource-accent);opacity:0;transform:scaleX(.12);transform-origin:left;pointer-events:none;transition:opacity 250ms,transform 350ms var(--ease)}
+:is(.resources-tools,.gap-context) .content-card h3{transition:color 250ms}:is(.resources-tools,.gap-context) .content-card .icon-slot{transition:transform 250ms var(--ease)}
+:is(.resources-tools,.gap-context) .content-card.reveal.seen{animation:none}
+:is(.resources-tools,.gap-context) .content-card:focus-within{border-color:var(--resource-accent);box-shadow:0 16px 36px #263B3618}
+:is(.resources-tools,.gap-context) .content-card:focus-within:before,:is(.resources-tools,.gap-context) .content-card:focus-within:after{opacity:1}:is(.resources-tools,.gap-context) .content-card:focus-within:after{transform:scaleX(1)}:is(.resources-tools,.gap-context) .content-card:focus-within h3{color:var(--resource-accent)}
 @media(hover:hover) and (pointer:fine){
- .resources-tools .content-card:hover{transform:translateY(-4px);border-color:var(--resource-accent);box-shadow:0 16px 36px #263B3618}
- .resources-tools .content-card:hover:before,.resources-tools .content-card:hover:after{opacity:1}.resources-tools .content-card:hover:after{transform:scaleX(1)}
- .resources-tools .content-card:hover h3{color:var(--resource-accent)}.resources-tools .content-card:hover .icon-slot{transform:translateX(3px)}
+ :is(.resources-tools,.gap-context) .content-card:hover{transform:translateY(-4px);border-color:var(--resource-accent);box-shadow:0 16px 36px #263B3618}
+ :is(.resources-tools,.gap-context) .content-card:hover:before,:is(.resources-tools,.gap-context) .content-card:hover:after{opacity:1}:is(.resources-tools,.gap-context) .content-card:hover:after{transform:scaleX(1)}
+ :is(.resources-tools,.gap-context) .content-card:hover h3{color:var(--resource-accent)}:is(.resources-tools,.gap-context) .content-card:hover .icon-slot{transform:translateX(3px)}
 }
-@media(prefers-reduced-motion:reduce){.resources-tools .content-card,.resources-tools .content-card *,.resources-tools .content-card:before,.resources-tools .content-card:after{transition:none!important;transform:none!important}}
-.reduced-motion .resources-tools .content-card,.reduced-motion .resources-tools .content-card *,.reduced-motion .resources-tools .content-card:before,.reduced-motion .resources-tools .content-card:after{transition:none!important;transform:none!important}
+@media(prefers-reduced-motion:reduce){:is(.resources-tools,.gap-context) .content-card,:is(.resources-tools,.gap-context) .content-card *,:is(.resources-tools,.gap-context) .content-card:before,:is(.resources-tools,.gap-context) .content-card:after{transition:none!important;transform:none!important}}
+.reduced-motion :is(.resources-tools,.gap-context) .content-card,.reduced-motion :is(.resources-tools,.gap-context) .content-card *,.reduced-motion :is(.resources-tools,.gap-context) .content-card:before,.reduced-motion :is(.resources-tools,.gap-context) .content-card:after{transition:none!important;transform:none!important}
