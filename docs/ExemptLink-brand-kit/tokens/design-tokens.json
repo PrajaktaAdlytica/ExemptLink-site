@@ -1,0 +1,234 @@
+{
+  "brand": {
+    "name": "ExemptLink",
+    "version": "1.0",
+    "logo": "Jurisdiction Seam"
+  },
+  "primitives": {
+    "color": {
+      "porcelain": "#F7F8F4",
+      "white": "#FFFFFF",
+      "paper": "#FBF9F3",
+      "mist": "#E8EFEB",
+      "line": "#D5DED7",
+      "ink": "#263B36",
+      "secondary": "#5D6C65",
+      "teal": "#32776B",
+      "teal-dark": "#245B50",
+      "copper": "#B97A50",
+      "copper-ink": "#8A5534",
+      "sand": "#F1E9DD",
+      "violet": "#EDEAF2",
+      "deep": "#162C27",
+      "control-border": "#81948A",
+      "focus": "#245B50",
+      "success": "#306147",
+      "success-bg": "#E6F1E7",
+      "warning": "#855715",
+      "warning-bg": "#F5EDDA",
+      "error": "#9D3B31",
+      "error-bg": "#F7E8E4",
+      "info": "#35536B",
+      "info-bg": "#E8EEF3",
+      "disabled": "#DEE4DF",
+      "disabled-ink": "#65736A"
+    },
+    "space": {
+      "0": "0px",
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "20": "20px",
+      "24": "24px",
+      "32": "32px",
+      "40": "40px",
+      "48": "48px",
+      "64": "64px",
+      "80": "80px",
+      "96": "96px",
+      "128": "128px"
+    }
+  },
+  "semantic": {
+    "light": {
+      "canvas": "#F7F8F4",
+      "surface": "#FFFFFF",
+      "surface-editorial": "#FBF9F3",
+      "surface-tinted": "#E8EFEB",
+      "text-primary": "#263B36",
+      "text-secondary": "#5D6C65",
+      "text-inverse": "#FFFFFF",
+      "border-decorative": "#D5DED7",
+      "border-control": "#81948A",
+      "action-primary": "#245B50",
+      "action-hover": "#263B36",
+      "brand-primary": "#32776B",
+      "accent": "#B97A50",
+      "accent-text": "#8A5534",
+      "focus": "#245B50",
+      "status-success": "#306147",
+      "status-success-bg": "#E6F1E7",
+      "status-warning": "#855715",
+      "status-warning-bg": "#F5EDDA",
+      "status-error": "#9D3B31",
+      "status-error-bg": "#F7E8E4",
+      "status-info": "#35536B",
+      "status-info-bg": "#E8EEF3",
+      "disabled-bg": "#DEE4DF",
+      "disabled-text": "#65736A"
+    },
+    "dark": {
+      "canvas": "#162C27",
+      "surface": "#263B36",
+      "text-primary": "#FFFFFF",
+      "text-secondary": "#CDD9D1",
+      "border-control": "#8D9D94",
+      "action-primary": "#CDE5DB",
+      "action-text": "#162C27"
+    }
+  },
+  "typography": {
+    "sans": "Instrument Sans",
+    "serif": "Newsreader",
+    "display": {
+      "desktop": "64px",
+      "mobile": "40px",
+      "weight": 500,
+      "lineHeight": 1.05,
+      "tracking": "-0.045em"
+    },
+    "h1": {
+      "desktop": "56px",
+      "mobile": "36px",
+      "weight": 500,
+      "lineHeight": 1.08,
+      "tracking": "-0.035em"
+    },
+    "h2": {
+      "desktop": "40px",
+      "mobile": "30px",
+      "weight": 500,
+      "lineHeight": 1.15,
+      "tracking": "-0.025em"
+    },
+    "h3": {
+      "desktop": "28px",
+      "mobile": "24px",
+      "weight": 500,
+      "lineHeight": 1.2
+    },
+    "h4": {
+      "desktop": "22px",
+      "mobile": "20px",
+      "weight": 600,
+      "lineHeight": 1.3
+    },
+    "h5": {
+      "desktop": "18px",
+      "mobile": "18px",
+      "weight": 600,
+      "lineHeight": 1.4
+    },
+    "h6": {
+      "desktop": "16px",
+      "mobile": "16px",
+      "weight": 600,
+      "lineHeight": 1.4
+    },
+    "lead": {
+      "size": "20px",
+      "mobile": "18px",
+      "lineHeight": 1.5
+    },
+    "body": {
+      "size": "16px",
+      "lineHeight": 1.65
+    },
+    "small": {
+      "size": "14px",
+      "lineHeight": 1.5
+    },
+    "caption": {
+      "size": "12px",
+      "lineHeight": 1.5
+    },
+    "label": {
+      "size": "13px",
+      "weight": 600,
+      "lineHeight": 1.4
+    },
+    "button": {
+      "size": "14px",
+      "weight": 600,
+      "lineHeight": 1.2
+    },
+    "eyebrow": {
+      "size": "11px",
+      "weight": 600,
+      "tracking": ".14em",
+      "lineHeight": 1.5
+    },
+    "data": {
+      "size": "14px",
+      "feature": "tnum"
+    }
+  },
+  "layout": {
+    "maxWidth": "1200px",
+    "wideMaxWidth": "1440px",
+    "readingMax": "680px",
+    "desktopColumns": 12,
+    "tabletColumns": 8,
+    "mobileColumns": 4,
+    "gutters": {
+      "desktop": "24px",
+      "tablet": "20px",
+      "mobile": "16px"
+    },
+    "pageMargins": {
+      "desktop": "48px",
+      "tablet": "32px",
+      "mobile": "20px"
+    },
+    "sectionSpace": {
+      "desktop": "96px",
+      "tablet": "72px",
+      "mobile": "56px"
+    },
+    "headerHeight": "76px"
+  },
+  "components": {
+    "buttonHeight": {
+      "small": "36px",
+      "default": "44px",
+      "large": "48px"
+    },
+    "touchTarget": "44px",
+    "radius": {
+      "control": "6px",
+      "card": "12px",
+      "scene": "16px",
+      "pill": "999px"
+    },
+    "icons": {
+      "base": "24px",
+      "small": "16px",
+      "default": "20px",
+      "large": "24px",
+      "stroke": "2px"
+    },
+    "focusRing": "3px solid #245B50",
+    "focusOffset": "3px",
+    "shadow": "0 12px 32px rgba(22,44,39,.08)"
+  },
+  "motion": {
+    "fast": "160ms",
+    "default": "240ms",
+    "emphasis": "360ms",
+    "scene": "700ms",
+    "heroSequence": "6000ms",
+    "ease": "cubic-bezier(.22,1,.36,1)",
+    "reducedMotion": "Complete still states; no autoplay, continuous transforms or hidden essential copy."
+  }
+}

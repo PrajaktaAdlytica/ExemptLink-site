@@ -1,0 +1,97 @@
+{
+  "checked_on": "2026-10-14",
+  "scope": "Brand book, editable assets and motion specimens; not production website conformance",
+  "checks": [
+    {
+      "check": "SVG XML parsing",
+      "result": "pass",
+      "count": 124
+    },
+    {
+      "check": "Page-hero route manifest",
+      "result": "pass",
+      "count": 30
+    },
+    {
+      "check": "Individual icon count",
+      "result": "pass",
+      "count": 72,
+      "breakdown": {
+        "Lucide_UI": 56,
+        "original_category": 14,
+        "social": 2
+      }
+    },
+    {
+      "check": "Calculated key contrast pairs",
+      "result": "pass",
+      "count": 15,
+      "report": "tokens/contrast-report.json"
+    },
+    {
+      "check": "JavaScript syntax",
+      "result": "pass"
+    },
+    {
+      "check": "Duplicate HTML IDs and internal chapter anchors",
+      "result": "pass"
+    },
+    {
+      "check": "Desktop hero variants selected; text client rectangles compared to root SVG bounds",
+      "result": "pass",
+      "count": 30
+    },
+    {
+      "check": "1440x900, 834x1112 and 390x844 page-level horizontal overflow",
+      "result": "pass"
+    },
+    {
+      "check": "Browser image load integrity at tested sizes",
+      "result": "pass",
+      "broken_images": 0
+    },
+    {
+      "check": "Mobile logo panel caption overlap",
+      "result": "pass_after_correction"
+    },
+    {
+      "check": "44px shutter hit area and visible shutter transform",
+      "result": "pass"
+    },
+    {
+      "check": "Keyboard Tab focus to icon-exchange control",
+      "result": "pass",
+      "outline": "3px solid #245B50; 3px offset"
+    },
+    {
+      "check": "Manual still switch disables scene animation",
+      "result": "pass"
+    },
+    {
+      "check": "Pause control yields animation-play-state paused",
+      "result": "pass"
+    },
+    {
+      "check": "Reduced-motion CSS and matchMedia wiring",
+      "result": "source_reviewed",
+      "OS_preference_emulation": "not performed"
+    },
+    {
+      "check": "HTML local file links, CSS asset references and JSON parsing",
+      "result": "pass"
+    },
+    {
+      "check": "Browser captured warnings/errors at final desktop pass",
+      "result": "pass",
+      "entries": 0
+    }
+  ],
+  "limits": [
+    "No full WCAG audit claimed.",
+    "No real production routes, requests, auth, payment, tax determination, sends, integration writes or deployment.",
+    "Mobile gallery contains simplified visual treatments and implementation plans.",
+    "Text bounds are root-scene checks; they do not replace future page-level visual QA.",
+    "Social links are pending real company URLs.",
+    "No video export; actual finite SVG animation is supplied."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "ExemptLink-logo-2-jurisdiction-seam.png",
+  "source_sha256": "3c6d324410429254f392e08b09950b30e14ed70e0e68a85e729613874c24a509",
+  "crop": [
+    210,
+    260,
+    495,
+    530
+  ],
+  "method": "Threshold the selected symbol, trace three pixel-boundary components, simplify at 1.15 source pixels, normalize to 256 units. Flat fill; no new silhouette concept.",
+  "paths": [
+    {
+      "d": "M1.02,0.00 L119.87,0.00 L119.87,81.27 L70.10,94.48 L58.92,118.86 L0.00,118.86 Z",
+      "centroid": 69.29219081849371,
+      "vertices": 6
+    },
+    {
+      "d": "M0.00,136.13 L57.90,136.13 L88.38,168.63 L139.17,171.68 L161.52,243.81 L0.00,243.81 Z",
+      "centroid": 81.63829140381546,
+      "vertices": 6
+    },
+    {
+      "d": "M138.16,0.00 L194.03,1.02 L232.63,35.56 L234.67,35.56 L239.75,41.65 L241.78,41.65 L246.86,47.75 L256.00,53.84 L256.00,243.81 L178.79,243.81 L155.43,170.67 L155.43,156.44 L95.49,152.38 L73.14,129.02 L81.27,107.68 L86.35,107.68 L89.40,105.65 L136.13,94.48 Z",
+      "centroid": 200.53130476936272,
+      "vertices": 18
+    }
+  ],
+  "status": "Working vector master v1; approval and trademark review remain separate."
+}

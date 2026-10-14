@@ -1,0 +1,55 @@
+EXEMPTLINK BRAND RESEARCH — APPLICATION NOTES
+14 October 2026
+Research engine: configured Perplexity research tool, high managed preset.
+This document records design interpretation. Tax wording remains informational and subject to tax-owner/counsel review.
+
+VISUAL INTERPRETATION
+An exemption-evidence brand benefits from exact relationships, readable boundaries and inspectable source artifacts. The selected Atlas direction uses state seams, registration marks, source brackets and human review gates. It avoids literal US flags, eagles, seals, shields, chain links, generic AI orbs and financial-growth charts.
+The selected Seam logo connects geography and reviewable linkage without implying a government designation.
+Modern Treasury: https://www.moderntreasury.com/
+Ramp: https://ramp.com/
+Vanta: https://www.vanta.com/
+Earlier browser captures ground the high-level composition references. The supplied hover effects, scene designs and timings are ExemptLink proposals; no exact competitor motion implementation is asserted from research text.
+
+INTERACTION PRINCIPLES
+1. Visible keyboard focus: use focus-visible while preserving actual focus indication. Shutter and icon exchange also respond to keyboard focus.
+https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible
+2. Hover support varies: use hover/pointer media conditions. Essential content remains visible on touch; magnetic movement is restricted to a fine pointer.
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media/pointer
+3. Respect reduced motion: show immediate states and a readable still composition. The kit also provides a manual still switch.
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
+4. Required text contrast is at least 4.5:1 for normal text; necessary graphical/control boundaries at least 3:1. Calculated key pairs are delivered, not a site-wide conformance certificate.
+https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html
+https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html
+5. Avoid revealing essential instructions only on hover. If later popovers show content on hover/focus, account for dismissibility, persistence and pointer travel.
+https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html
+6. Prefer transform/color/stroke changes that preserve the control's layout. SVG stroke tracing is suitable for finite evidence connectors.
+https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-dasharray
+https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-dashoffset
+
+MATERIAL AND TYPOGRAPHY
+Instrument Sans serves UI and data. Newsreader gives selected editorial copy a human reading voice. Both supplied with local files and licenses.
+https://github.com/Instrument/instrument-sans
+https://github.com/productiontype/Newsreader
+https://github.com/google/fonts
+Original paper/mineral images provide texture at section edges; reading surfaces remain flat.
+Use geometry to express actual transaction/entity/jurisdiction/period relationships rather than arbitrary nodes.
+
+MAP, ICON AND SOCIAL PROVENANCE
+State geometry: us-atlas, simplified Census 2017 cartographic source. Highlighting fictional NY data does not claim service coverage.
+https://github.com/topojson/us-atlas
+Lucide UI icons: pinned snapshot; consistent 24px grid and 2px strokes.
+https://lucide.dev/license/
+LinkedIn owner mark guidance:
+https://brand.linkedin.com/in-logo
+Crunchbase attribution guidance:
+https://about.crunchbase.com/terms-of-service/attribution-instructions
+The supplied social files come from Font Awesome and Simple Icons respectively; owner rights are separate from the libraries' licenses.
+
+TAX-CATEGORY GUARDRAIL
+New York blanket certificates do not acquire a universal expiry rule through a visual design. The NY hero uses entity/jurisdiction mismatch; the timeline records the corrected assumption.
+https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/exemption_certificates_for_sales_tax.htm
+The Florida annual resale illustration separately uses the calendar-year expiry of an annual certificate.
+https://floridarevenue.com/taxes/taxesfees/Pages/annual_resale_certificate_sut.aspx
+Do not conflate these US sales-tax evidence examples with VAT or income-tax substantiation.

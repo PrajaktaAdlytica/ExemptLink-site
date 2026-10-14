@@ -1,0 +1,122 @@
+[
+  {
+    "pair": "Primary text",
+    "foreground": "#263B36",
+    "background": "#F7F8F4",
+    "ratio": 11.18,
+    "target": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "Body on paper",
+    "foreground": "#263B36",
+    "background": "#FBF9F3",
+    "ratio": 11.32,
+    "target": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "Muted body",
+    "foreground": "#5D6C65",
+    "background": "#FFFFFF",
+    "ratio": 5.53,
+    "target": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "Primary button",
+    "foreground": "#FFFFFF",
+    "background": "#245B50",
+    "ratio": 7.81,
+    "target": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "Primary button hover",
+    "foreground": "#FFFFFF",
+    "background": "#263B36",
+    "ratio": 11.92,
+    "target": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "Teal text",
+    "foreground": "#32776B",
+    "background": "#FFFFFF",
+    "ratio": 5.27,
+    "target": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "Copper text",
+    "foreground": "#8A5534",
+    "background": "#FBF9F3",
+    "ratio": 5.82,
+    "target": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "Warning",
+    "foreground": "#855715",
+    "background": "#F5EDDA",
+    "ratio": 5.34,
+    "target": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "Error",
+    "foreground": "#9D3B31",
+    "background": "#F7E8E4",
+    "ratio": 5.68,
+    "target": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "Success",
+    "foreground": "#306147",
+    "background": "#E6F1E7",
+    "ratio": 6.18,
+    "target": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "Info",
+    "foreground": "#35536B",
+    "background": "#E8EEF3",
+    "ratio": 6.9,
+    "target": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "Control border",
+    "foreground": "#81948A",
+    "background": "#FFFFFF",
+    "ratio": 3.21,
+    "target": 3,
+    "pass": true
+  },
+  {
+    "pair": "Focus ring",
+    "foreground": "#245B50",
+    "background": "#FFFFFF",
+    "ratio": 7.81,
+    "target": 3,
+    "pass": true
+  },
+  {
+    "pair": "Dark paragraph",
+    "foreground": "#FFFFFF",
+    "background": "#162C27",
+    "ratio": 14.75,
+    "target": 4.5,
+    "pass": true
+  },
+  {
+    "pair": "Dark secondary",
+    "foreground": "#CDD9D1",
+    "background": "#162C27",
+    "ratio": 10.14,
+    "target": 4.5,
+    "pass": true
+  }
+]
