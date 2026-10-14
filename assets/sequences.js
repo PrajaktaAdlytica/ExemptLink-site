@@ -4,6 +4,7 @@
  function updateHeader(){header.classList.toggle('is-scrolled',scrollY>16);scheduled=false}
  addEventListener('scroll',()=>{if(!scheduled){scheduled=true;requestAnimationFrame(updateHeader)}},{passive:true});updateHeader();
  const recipes=[
+  ['[data-reviewed-loop]','reviewed-loop','Scope → link → human review → proposed action → preserve','reviewed evidence loop'],
   ['.atlas-geography','atlas','Locate → trace','jurisdiction map'],
   ['.hero-invoice','invoice','Candidate → hold','invoice evidence'],
   ['.source-document','source','Entity → state → source','certificate source'],
@@ -33,8 +34,13 @@
  }),{threshold:.16});
  function replay(root){if(media.matches)return;root.classList.remove('sequence-running');void root.offsetWidth;root.classList.add('sequence-running');root.dataset.sequenceStarted='true'}
  recipes.forEach(([selector,type,caption,name])=>document.querySelectorAll(selector).forEach((root)=>{
-  if(root.closest('[data-workflow-hero],[data-workflow-evidence]') && !root.matches('[data-workflow-hero],[data-workflow-evidence]'))return;
+  if(root.closest('[data-workflow-hero],[data-workflow-evidence],[data-reviewed-loop]') && !root.matches('[data-workflow-hero],[data-workflow-evidence],[data-reviewed-loop]'))return;
   root.classList.add('sequence-ready');root.dataset.sequence=type;
+  if(type==='reviewed-loop'){
+   const delays=[0,700,1400,2800,3500];
+   root.querySelectorAll('.mobile-flow > div').forEach((row,i)=>{row.classList.add('loop-mobile-step');row.style.setProperty('--loop-delay',delays[i]+'ms')});
+   root.querySelector('.scene-mobile > .badge')?.classList.add('loop-mobile-gate');
+  }
   if(type==='workflow-hero'){
    const parts=root.querySelectorAll('.scene-svg > .settle,.scene-svg > .trace,.scene-svg > .bar');
    parts.forEach((part,i)=>{

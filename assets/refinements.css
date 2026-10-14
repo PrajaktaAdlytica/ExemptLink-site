@@ -57,3 +57,21 @@
 @keyframes wf-bar{from{transform:scaleX(.08);opacity:.65}to{transform:scaleX(1);opacity:1}}
 @media(prefers-reduced-motion:reduce){.sequence-running:is([data-workflow-hero],[data-workflow-evidence]) [data-motion-stage]{animation:none!important;transform:none!important;opacity:1!important;stroke-dashoffset:0!important}}
 .reduced-motion :is([data-workflow-hero],[data-workflow-evidence]) [data-motion-stage]{animation:none!important;transform:none!important;opacity:1!important;stroke-dashoffset:0!important}
+
+/* How it works: five relationships, with a human boundary before action. */
+.process-tint{background:#DDE9E2;background-image:radial-gradient(ellipse at 0 0,#EEF1D9,transparent 65%)}
+.process-tint .process-row{border-color:#A7BDB0}.process-tint .process-icon{background:#F6F8F0;border-color:#A7BDB0}.process-tint .process-owner,.process-tint .process-row p{color:#40594F}
+[data-reviewed-loop] .loop-baseline{stroke:#CAD8CF;stroke-width:2}[data-reviewed-loop] .loop-trace{stroke-width:3}
+[data-reviewed-loop] .loop-step circle{animation:none}
+.sequence-running[data-reviewed-loop] .loop-step,.sequence-running[data-reviewed-loop] .loop-gate{animation:loop-register 800ms var(--ease) var(--loop-delay) both}
+.sequence-running[data-reviewed-loop] .loop-step circle{animation:loop-focus 900ms var(--ease) var(--loop-delay) both;transform-box:fill-box;transform-origin:center}
+.sequence-running[data-reviewed-loop] .loop-trace{stroke-dasharray:178;animation:loop-connect 550ms var(--ease) var(--loop-delay) both}
+.sequence-running[data-reviewed-loop] .loop-gate rect{animation:loop-boundary 1000ms var(--ease) 2100ms both}
+[data-reviewed-loop] .mobile-flow > div{animation:none}.sequence-running[data-reviewed-loop] .loop-mobile-step{animation:loop-mobile-register 850ms var(--ease) var(--loop-delay) both}.sequence-running[data-reviewed-loop] .loop-mobile-gate{animation:loop-mobile-register 900ms var(--ease) 2100ms both}
+@keyframes loop-register{from{opacity:.8;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes loop-focus{0%{transform:scale(.92);stroke:#B97A50;stroke-width:0}45%{transform:scale(1.06);stroke:#B97A50;stroke-width:5}100%{transform:scale(1);stroke-width:0}}
+@keyframes loop-connect{from{stroke-dashoffset:178}to{stroke-dashoffset:0}}
+@keyframes loop-boundary{0%,100%{stroke:#D5DED7;stroke-width:1}50%{stroke:#B97A50;stroke-width:3}}
+@keyframes loop-mobile-register{0%{transform:translateY(7px);background-color:#F6F8F0}50%{background-color:#E1D7BD}100%{transform:none}}
+@media(prefers-reduced-motion:reduce){[data-reviewed-loop] *,[data-reviewed-loop] .loop-trace{animation:none!important;transform:none!important;opacity:1!important;stroke-dashoffset:0!important}}
+.reduced-motion [data-reviewed-loop] *{animation:none!important;transform:none!important;opacity:1!important;stroke-dashoffset:0!important}
