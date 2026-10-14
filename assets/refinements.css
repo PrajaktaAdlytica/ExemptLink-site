@@ -100,3 +100,25 @@
 }
 @media(prefers-reduced-motion:reduce){.pricing-layout .price-card,.pricing-layout .price-card *,.pricing-layout .price-card:before,.pricing-layout .price-card *:before{transition:none!important;transform:none!important}}
 .reduced-motion .pricing-layout .price-card,.reduced-motion .pricing-layout .price-card *,.reduced-motion .pricing-layout .price-card:before,.reduced-motion .pricing-layout .price-card *:before{transition:none!important;transform:none!important}
+
+/* Pilot criteria: hover emphasizes the evidence, without implying card actions. */
+.pilot-scorecard .content-card,.pilot-decision-cards article{--pilot-accent:#32776B;--pilot-wash:#EFF6EF;position:relative;isolation:isolate;overflow:hidden;transition:transform 280ms var(--ease),border-color 280ms var(--ease),box-shadow 280ms var(--ease)}
+.pilot-scorecard .content-card:nth-child(2){--pilot-accent:#426B70;--pilot-wash:#EDF4F5}
+.pilot-scorecard .content-card:nth-child(3),.pilot-decision-cards article+article{--pilot-accent:#8A5534;--pilot-wash:#F5ECDF}
+.pilot-scorecard .content-card:before,.pilot-decision-cards article:before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;border-radius:inherit;background:radial-gradient(ellipse at 100% 0%,var(--pilot-wash),transparent 78%);opacity:0;transition:opacity 280ms var(--ease)}
+.pilot-scorecard .content-card:after,.pilot-decision-cards article:after{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--pilot-accent);transform:scaleX(.12);transform-origin:left;opacity:0;pointer-events:none;transition:transform 350ms var(--ease),opacity 250ms}
+.pilot-scorecard .content-card h3,.pilot-decision-cards h3{transition:color 250ms}
+.pilot-scorecard .content-card:focus-within{border-color:var(--pilot-accent);box-shadow:0 16px 32px #263B3614}
+.pilot-scorecard .content-card:focus-within:before,.pilot-scorecard .content-card:focus-within:after{opacity:1}
+.pilot-scorecard .content-card:focus-within:after{transform:scaleX(1)}
+.pilot-scorecard .content-card:focus-within h3{color:var(--pilot-accent)}
+@media(hover:hover) and (pointer:fine){
+ .pilot-scorecard .content-card:hover,.pilot-decision-cards article:hover{transform:translateY(-4px);border-color:var(--pilot-accent);box-shadow:0 16px 32px #263B3614}
+ .pilot-scorecard .content-card:hover:before,.pilot-scorecard .content-card:hover:after,.pilot-decision-cards article:hover:before,.pilot-decision-cards article:hover:after{opacity:1}
+ .pilot-scorecard .content-card:hover:after,.pilot-decision-cards article:hover:after{transform:scaleX(1)}
+ .pilot-scorecard .content-card:hover h3,.pilot-decision-cards article:hover h3{color:var(--pilot-accent)}
+}
+@media(prefers-reduced-motion:reduce){.pilot-scorecard .content-card,.pilot-decision-cards article{transform:none!important}.pilot-scorecard .content-card,.pilot-scorecard .content-card *,.pilot-scorecard .content-card:before,.pilot-scorecard .content-card:after,.pilot-decision-cards article,.pilot-decision-cards article *,.pilot-decision-cards article:before,.pilot-decision-cards article:after{transition:none!important}}
+.reduced-motion .pilot-scorecard .content-card,.reduced-motion .pilot-decision-cards article{transform:none!important}.reduced-motion .pilot-scorecard .content-card,.reduced-motion .pilot-scorecard .content-card *,.reduced-motion .pilot-scorecard .content-card:before,.reduced-motion .pilot-scorecard .content-card:after,.reduced-motion .pilot-decision-cards article,.reduced-motion .pilot-decision-cards article *,.reduced-motion .pilot-decision-cards article:before,.reduced-motion .pilot-decision-cards article:after{transition:none!important}
+
+.pilot-scorecard .content-card.reveal.seen{animation:none;opacity:1}
