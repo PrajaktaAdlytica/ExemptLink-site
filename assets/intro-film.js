@@ -3,6 +3,24 @@
   const section = document.querySelector('.intro-film');
   if (!section) return;
   const video = section.querySelector('video');
+  const hero = document.querySelector('#home-overview');
+  const header = document.querySelector('.site-header');
+  const updateNavigation = () => {
+    const show = hero.getBoundingClientRect().top <= header.offsetHeight + 2;
+    document.body.classList.toggle('film-navigation-visible', show);
+    header.inert = !show;
+  };
+  const enterHero = () => {
+    userPaused = true;
+    video.pause();
+    const top = hero.getBoundingClientRect().top + window.scrollY - header.offsetHeight;
+    hero.focus({preventScroll: true});
+    window.scrollTo({top, behavior: reduced.matches ? 'instant' : 'smooth'});
+    paint();
+  };
+  window.addEventListener('scroll', updateNavigation, {passive: true});
+  window.addEventListener('resize', updateNavigation);
+  updateNavigation();
   const toggle = section.querySelector('[data-film-toggle]');
   const replay = section.querySelector('[data-film-replay]');
   const progress = section.querySelector('progress');
@@ -41,7 +59,8 @@
   replay.addEventListener('click', () => {
     userPaused = false; load(); video.currentTime = 0; if (!blocked()) play(); paint();
   });
-  section.querySelector('[data-film-skip]').addEventListener('click', () => { userPaused = true; video.pause(); paint(); });
+  section.querySelector('[data-film-skip]').addEventListener('click', event => { event.preventDefault(); enterHero(); });
+  video.addEventListener('ended', () => { if (visible && !document.hidden) enterHero(); });
   for (const event of ['timeupdate','play','pause','ended','loadedmetadata']) video.addEventListener(event, paint);
   video.addEventListener('error', () => {
     userPaused = true; toggle.hidden = true; replay.hidden = true;
