@@ -1,0 +1,31 @@
+{
+  "route": "/how-it-works/",
+  "viewports": [
+    [
+      775,
+      804
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "hero_steps": 5,
+  "connectors": 4,
+  "human_gate_delay_ms": 2100,
+  "step_delays_ms": [
+    0,
+    700,
+    1400,
+    2800,
+    3500
+  ],
+  "process_rows": 6,
+  "background": "#DDE9E2",
+  "replay": true,
+  "pause_verified": true,
+  "mobile_overflow": false,
+  "desktop_overflow": false,
+  "console_errors": [],
+  "checks": "TypeScript, Vite, 30 routes, links, SVG and fixture checks passed"
+}
