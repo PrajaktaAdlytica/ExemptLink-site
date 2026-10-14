@@ -165,3 +165,8 @@
 
 .nav-actions{align-items:center}.nav-sign-in{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 8px;font-size:12px;font-weight:500;white-space:nowrap;color:var(--ink);border-radius:4px;text-underline-offset:4px}.nav-sign-in:hover{text-decoration:underline;color:var(--action)}
 @media(min-width:1024px) and (max-width:1279px){.nav-inner{gap:16px}.desktop-nav{gap:14px}.nav-sign-in{font-size:11px;padding:0 4px}}
+
+/* Individual translate entrances preserve existing hover transforms and product sequences. */
+.scroll-choreography{overflow-x:clip}
+@media(prefers-reduced-motion:reduce){[data-scroll-entrance]{translate:none!important;opacity:1!important}}
+.reduced-motion [data-scroll-entrance]{translate:none!important;opacity:1!important}
