@@ -103,9 +103,9 @@
   },
   {
     "route": "/sign-in",
-    "title": "Enter the isolated preview",
+    "title": "Sign in to ExemptLink",
     "hero": "visuals/heroes/hero-sign-in.svg",
-    "sections": 2
+    "sections": 1
   },
   {
     "route": "/privacy",

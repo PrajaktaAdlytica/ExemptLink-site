@@ -1,0 +1,23 @@
+{
+  "route": "/sign-in/",
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "required_validation": true,
+  "password_visibility_toggle": true,
+  "password_cleared_after_preview": true,
+  "recovery_help": true,
+  "mobile_nav_link": true,
+  "mobile_form_first": true,
+  "horizontal_overflow": false,
+  "console_errors": [],
+  "authentication_connected": false,
+  "credential_transport_or_persistence": false
+}
