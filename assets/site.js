@@ -65,3 +65,16 @@ function action(a){
 function reset(){state={step:0,reason:'',modified:false,scenarioJurisdiction:'New York'};selected='TX-091';activeTab='invoice';$('#queue-search').value='';$('#queue-filter').value='all';sessionStorage.removeItem(STORE);render();announce('Canonical ten-record fixture restored. All external actions remain unavailable.')}
 $('#demo-reset').addEventListener('click',reset);$('#queue-search').addEventListener('input',queue);$('#queue-filter').addEventListener('change',queue);render();
 })();
+
+// Isolated sign-in presentation: no authentication transport or persistence.
+(()=>{
+ const form=document.getElementById('sign-in-form');if(!form)return;
+ const password=document.getElementById('auth-password'),toggle=form.querySelector('.auth-password-toggle'),result=document.getElementById('auth-result');
+ function mask(){password.type='password';toggle.setAttribute('aria-pressed','false');toggle.setAttribute('aria-label','Show password')}
+ toggle.addEventListener('click',()=>{const show=password.type==='password';password.type=show?'text':'password';toggle.setAttribute('aria-pressed',String(show));toggle.setAttribute('aria-label',show?'Hide password':'Show password')});
+ function preview(event){event.preventDefault();if(!form.reportValidity())return;password.value='';mask();result.hidden=false;}
+ form.addEventListener('submit',preview);
+ form.addEventListener('input',()=>{result.hidden=true});
+ const recovery=document.getElementById('auth-recovery'),help=document.getElementById('auth-recovery-help');recovery.addEventListener('click',()=>{help.hidden=!help.hidden;recovery.setAttribute('aria-expanded',String(!help.hidden))});
+ addEventListener('pagehide',()=>{password.value='';mask()});
+})();
