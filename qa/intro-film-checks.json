@@ -1,0 +1,30 @@
+{
+  "desktop": {
+    "width": 1920,
+    "height": 1080,
+    "duration": 12,
+    "readyState": 4,
+    "autoplay": true,
+    "overflow": false
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "width": 1280,
+    "height": 720,
+    "duration": 12,
+    "autoplay": true,
+    "overflow": false
+  },
+  "controls": {
+    "pause": true,
+    "replay": true,
+    "skipPauses": true,
+    "skipAnchor": "#home-overview"
+  },
+  "logicTests": "qa/check-intro-playback.mjs",
+  "decode": "288 frames decoded without errors",
+  "scope": "Homepage only; above the existing hero"
+}

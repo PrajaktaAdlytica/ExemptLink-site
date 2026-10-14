@@ -3,7 +3,7 @@
     "route": "/",
     "title": "Connect every exempt sale to its supporting certificate",
     "hero": "visuals/heroes/hero-home.svg",
-    "sections": 10
+    "sections": 11
   },
   {
     "route": "/workflows",
