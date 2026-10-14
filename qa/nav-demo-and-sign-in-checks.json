@@ -1,0 +1,19 @@
+{
+  "desktop_widths": [
+    1440,
+    1280,
+    1100,
+    1024
+  ],
+  "mobile_width": 390,
+  "actions": [
+    "Explore demo",
+    "Sign in",
+    "Discuss a pilot"
+  ],
+  "demo_navigation_verified": true,
+  "sign_in_navigation_verified": true,
+  "mobile_links_verified": true,
+  "horizontal_overflow": false,
+  "console_errors": []
+}
