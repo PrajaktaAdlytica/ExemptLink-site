@@ -1,0 +1,49 @@
+EXEMPTLINK / JADE SKY INTEGRATION / v1.1
+
+Implemented structure
+- components/ui/jade-sky.tsx: supplied GradientBackground, kept as a dependency-free visual component.
+- components/ui/demo.tsx: supplied usage example.
+- src/backgrounds.tsx: React roots mount one GradientBackground behind each page hero.
+- styles/globals.css: Tailwind utilities and brand/shadcn semantic tokens. Preflight is omitted so existing page styling stays intact.
+- dist/assets/site.css: approved existing site styles.
+- dist/assets/refinements.css: transparent/glass header, colored question section, motion and pricing hover styles.
+- dist/assets/sequences.js: finite on-entry/replay choreography, offscreen pausing, reduced-motion preference handling.
+- components.json, tsconfig.json, vite.config.ts, lib/utils.ts: shadcn-compatible paths, TypeScript, Vite/Tailwind and cn utility.
+
+Default component path is /components/ui at the repository root. @/* resolves to the repository root in TypeScript and Vite. This matches the supplied @/components/ui/jade-sky import and gives shadcn a predictable reusable-component destination instead of mixing UI components into page-generation scripts.
+
+Build and preview
+  npm ci
+  npm run build
+  python3 -m http.server 8770 --bind 127.0.0.1 --directory dist
+The supplied dist remains directly previewable without installing packages. Source builds typecheck React/TS, regenerate route HTML, then bundle the React island and Tailwind CSS. Existing brand assets are tracked and preserved. A sibling ExemptLink-brand-kit may supply original assets; otherwise the tracked dist/assets source assets are used.
+
+Adding more shadcn components
+This project is already manually configured. To add a component later:
+  npx shadcn@latest add button
+For a new, unconfigured Vite/React/TS project, use the official Vite setup, install Tailwind and its Vite plugin, configure @/*, then run:
+  npx shadcn@latest init
+Do not run init over this configured site unless intentionally changing its tokens/configuration.
+
+Component analysis
+Prop: className?: string. No state, hooks, context providers, API calls, images or icons are required. React/ReactDOM are the host runtime, not visual-library dependencies. No new image placeholders were introduced; approved brand imagery and logo assets remain.
+The parent host is positioned absolutely; the supplied component retains its relative-positioned, full-size container and cqmin blur behavior. Every one of the 30 page heroes has a host. The supplied radial-gradient recipe is also the no-JavaScript fallback. A quiet SVG grain layer supplies texture.
+
+Motion coverage for browser comments
+5 Map: jurisdiction registration -> New York emphasis -> source connector.
+6 Invoice: context -> buyer -> certificate candidate -> hold -> metadata.
+7 Source: entity -> state -> date context -> signature/provenance.
+8 Linkage: transaction -> connector -> candidate.
+9 Remediation: draft -> lines -> approval gate.
+10 Checklist: each field inspected; review/unknown labels remain unchanged.
+11 Packet: back sheet -> index -> transactions -> versions -> decisions.
+12 Reconciliation: GL -> engine -> evidence; fixed values and proportions remain.
+13 Workbench: selected queue record -> facts -> timeline -> entity -> correction -> retained hold.
+14 Boundary: read -> suggest -> blocked external lane.
+15 Pricing: pointer hover lift, copper edge and shadow; keyboard focus has a stationary equivalent.
+All sequences are finite, replayable and pause offscreen or with the site Pause motion control. OS reduced motion shows the still state and disables Replay. The sequences never modify source data, review approval, delivery, counts or prices.
+
+Primary setup references checked through Perplexity
+https://ui.shadcn.com/docs/installation/vite
+https://tailwindcss.com/docs/installation/using-vite
+User-supplied gradient recipe/editor attribution remains in components/ui/jade-sky.tsx.

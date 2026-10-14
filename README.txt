@@ -1,5 +1,5 @@
 EXEMPTLINK / JURISDICTION ATLAS WEBSITE
-Complete concept website / 14 October 2026
+Complete concept website / 14 October 2026 / v1.1 Jade Sky
 
 CONTENTS
 30 complete routes from the approved IA, plus a host 404 fallback.
@@ -9,12 +9,12 @@ Each route has its own animated SVG hero scene. Mobile has purpose-specific diag
 Section treatments include source excerpts, link diagrams, request gates, checklists, packet stacks, control totals, process rows, persona pictograms, sample grids, editorial materials and permission boundaries.
 
 RUN LOCALLY
-No package install or build step is needed:
+The prebuilt dist can be viewed without installation:
   python3 -m http.server 8770 --bind 127.0.0.1 --directory dist
 Open http://127.0.0.1:8770/
 Serve dist as the root; direct filesystem opening cannot resolve root-relative routes/assets.
 All site HTML, CSS and JavaScript are editable in dist/.
-source/build_site.py regenerates route HTML from the sibling ExemptLink-brand-kit folder. CSS/JS remain editable in dist/assets and are not overwritten by that generator.
+For source edits, run npm ci then npm run build. React, TypeScript, Tailwind and shadcn-compatible paths are configured. See COMPONENT_INTEGRATION.txt. source/build_site.py regenerates route HTML using original kit assets or the tracked dist/assets fallback. CSS/JS remain editable in dist/assets and are not overwritten by that generator.
 source/check_site.py validates links, assets, headings, SVGs and fixture control totals.
 The optional social-preview renderer requires Sharp (npm module), or SHARP_MODULE pointing to an installed module. The rendered image is already supplied.
 
@@ -49,7 +49,7 @@ No continuous decorative animation or essential information hidden on hover. Shu
 The original 15 key palette contrast pairs are retained. Dark hero copy and buttons have separate accessible color treatments. This is not a claim of full WCAG certification.
 
 PUBLICATION AND SCOPE
-The Sites deployment is owner-private. It is a published concept website, not an operating tax SaaS or custom-domain launch.
+The Sites deployment is public, as requested. It remains a concept website, not an operating tax SaaS or custom-domain launch.
 Source identity and static-directory configuration are in .openai/hosting.json. No credentials are bundled.
 Robots/metadata keep the concept out of public indexing. The real company profile URLs and custom domain have not been supplied.
 Sources and guidance are informational and subject to tax-owner/counsel review; US sales-tax exemption evidence only, no VAT or income-tax substantiation.

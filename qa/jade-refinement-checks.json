@@ -1,0 +1,49 @@
+{
+  "version": "1.1",
+  "comments_covered": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "route_coverage": 30,
+  "background": "Provided Jade Sky React component, mounted behind every hero",
+  "framework": "React + TypeScript + Vite + Tailwind, shadcn-compatible structure",
+  "typecheck": "passed",
+  "production_build": "passed",
+  "static_check": "passed",
+  "sequence_recipes": [
+    "atlas",
+    "invoice",
+    "source",
+    "linkage",
+    "request",
+    "checks",
+    "packet",
+    "bars",
+    "workbench",
+    "boundary"
+  ],
+  "browser_replay_check": "All ten recipes exercised; expected animation names observed",
+  "price_hover_check": {
+    "translation_y": "-4px",
+    "border": "#8A5534"
+  },
+  "banner_removed": true,
+  "header_top": "transparent",
+  "header_scrolled": "translucent glass",
+  "question_background": "sage / cream",
+  "reduced_motion": "CSS/JS preference wiring reviewed; OS emulation not performed",
+  "data_mutation": "No approval, amount, price, evidence or count changes caused by motion"
+}

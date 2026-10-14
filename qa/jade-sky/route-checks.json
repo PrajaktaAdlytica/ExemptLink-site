@@ -1,0 +1,426 @@
+{
+  "annotated_viewport": [
+    {
+      "route": "/",
+      "backgrounds": 1,
+      "heroHeight": 1131.53125,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/workflows/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/workflows/transaction-linkage/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/workflows/certificate-remediation/",
+      "backgrounds": 1,
+      "heroHeight": 1136.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/workflows/jurisdiction-checklists/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/workflows/audit-packets/",
+      "backgrounds": 1,
+      "heroHeight": 1136.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/workflows/monthly-reconciliation/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/how-it-works/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/use-cases/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/pilot/",
+      "backgrounds": 1,
+      "heroHeight": 1136.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/pricing/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/demo/",
+      "backgrounds": 1,
+      "heroHeight": 1136.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/demo/invoice/TX-091/",
+      "backgrounds": 1,
+      "heroHeight": 1136.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/demo/report/sample-01/",
+      "backgrounds": 1,
+      "heroHeight": 1136.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/demo/examples/florida-expiry/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/request-pilot/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/request-demo/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/early-access/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/controls/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/resources/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/resources/exempt-sales-gap-checklist/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/resources/evidence-and-sources/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/resources/evaluation-method/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/about/",
+      "backgrounds": 1,
+      "heroHeight": 1136.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/contact/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/sign-in/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/privacy/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/terms/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/privacy-request/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    },
+    {
+      "route": "/404/",
+      "backgrounds": 1,
+      "heroHeight": 1106.015625,
+      "scrollWidth": 775,
+      "strip": 0,
+      "width": 775
+    }
+  ],
+  "mobile": [
+    {
+      "route": "/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/workflows/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/workflows/transaction-linkage/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/workflows/certificate-remediation/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/workflows/jurisdiction-checklists/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/workflows/audit-packets/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/workflows/monthly-reconciliation/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/how-it-works/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/use-cases/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/pilot/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/pricing/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/demo/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/demo/invoice/TX-091/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/demo/report/sample-01/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/demo/examples/florida-expiry/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/request-pilot/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/request-demo/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/early-access/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/controls/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/resources/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/resources/exempt-sales-gap-checklist/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/resources/evidence-and-sources/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/resources/evaluation-method/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/about/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/contact/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/sign-in/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/privacy/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/terms/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/privacy-request/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "/404/",
+      "backgrounds": 1,
+      "scrollWidth": 390,
+      "width": 390
+    }
+  ]
+}

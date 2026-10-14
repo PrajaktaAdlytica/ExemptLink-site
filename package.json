@@ -1,0 +1,6 @@
+{
+  "name":"exemptlink-website","version":"1.1.0","private":true,"type":"module",
+  "scripts":{"build":"tsc --noEmit && python3 source/build_site.py && vite build","typecheck":"tsc --noEmit","dev":"npm run build && python3 -m http.server 8770 --bind 127.0.0.1 --directory dist","check":"python3 source/check_site.py"},
+  "dependencies":{"react":"^19.2.0","react-dom":"^19.2.0","class-variance-authority":"^0.7.1","clsx":"^2.1.1","tailwind-merge":"^3.3.1"},
+  "devDependencies":{"@types/node":"^24.0.0","@types/react":"^19.2.0","@types/react-dom":"^19.2.0","@vitejs/plugin-react":"^5.0.0","@tailwindcss/vite":"^4.1.0","tailwindcss":"^4.1.0","typescript":"^5.9.0","vite":"^7.1.0"}
+}
