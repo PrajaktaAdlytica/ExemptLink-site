@@ -301,15 +301,15 @@
   {
     "route": "/about",
     "page": "About",
-    "hero": "The seam as a working principle",
+    "hero": "The ExemptLink symbol",
     "family": "seam",
     "surface": "paper",
     "asset": "visuals/heroes/hero-about.svg",
-    "story": "The selected three-region logo registers into a coherent boundary; mission remains visible.",
-    "motion": "three planes settle once",
-    "mobile": "Flat logo and mission with still editorial image.",
-    "playback": "Finite entrance, user-controlled replay, pause offscreen; no approval simulated automatically.",
-    "status": "Brand-kit scene specimen and future page art direction; not a shipped product page."
+    "story": "The open seam represents a reviewable connection between source evidence, jurisdiction and a human reviewer.",
+    "motion": "The symbol enters within a fixed position and scale.",
+    "mobile": "The open seam represents a reviewable connection between source evidence, jurisdiction and a human reviewer.",
+    "playback": "Finite entrance; pause and reduced-motion still state.",
+    "status": "Brand illustration for the research-stage company concept."
   },
   {
     "route": "/contact",

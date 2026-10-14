@@ -1,0 +1,19 @@
+{
+  "route": "/about/",
+  "cause": "CSS entrance animation replaced the SVG placement transform.",
+  "fix": "Fixed outer placement group, animated inner group.",
+  "viewports": [
+    [
+      775,
+      804
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "brand_label_verified": true,
+  "mobile_explanation_verified": true,
+  "horizontal_overflow": false,
+  "console_errors": []
+}
