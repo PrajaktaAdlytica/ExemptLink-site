@@ -1,0 +1,20 @@
+{
+  "route": "/request-pilot/",
+  "viewports": [
+    [
+      775,
+      804
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "input_card_height": 80,
+  "input_card_gap": 16,
+  "horizontal_padding": 24,
+  "brief_top_bottom_aligned": true,
+  "brief_text_left_aligned": true,
+  "horizontal_overflow": false,
+  "console_errors": []
+}
