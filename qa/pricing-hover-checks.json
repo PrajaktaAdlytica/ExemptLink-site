@@ -1,0 +1,21 @@
+{
+  "route": "/pricing/",
+  "viewports": [
+    [
+      775,
+      804
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "hover_lift_px": 6,
+  "primary_accent": "#32776B",
+  "future_accent": "#8A5534",
+  "keyboard_focus_verified": true,
+  "mobile_cards_width_px": 350,
+  "horizontal_overflow": false,
+  "console_errors": [],
+  "reduced_motion": "CSS disables transforms and transitions; color emphasis retained"
+}

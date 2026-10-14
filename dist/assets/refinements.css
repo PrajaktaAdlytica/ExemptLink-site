@@ -75,3 +75,28 @@
 @keyframes loop-mobile-register{0%{transform:translateY(7px);background-color:#F6F8F0}50%{background-color:#E1D7BD}100%{transform:none}}
 @media(prefers-reduced-motion:reduce){[data-reviewed-loop] *,[data-reviewed-loop] .loop-trace{animation:none!important;transform:none!important;opacity:1!important;stroke-dashoffset:0!important}}
 .reduced-motion [data-reviewed-loop] *{animation:none!important;transform:none!important;opacity:1!important;stroke-dashoffset:0!important}
+
+/* Pricing: restrained material changes, with equal keyboard emphasis. */
+.pricing-layout .price-card{--pricing-active:0;--pricing-accent:#32776B;--pricing-wash:#CDE5D7;overflow:hidden;transition:transform 300ms var(--ease),border-color 300ms var(--ease),box-shadow 300ms var(--ease)}
+.pricing-layout .future-price{--pricing-accent:#8A5534;--pricing-wash:#EAD3B9}
+.pricing-layout .price-card:before{z-index:-1;border-top:3px solid var(--pricing-accent);background:radial-gradient(ellipse at 100% 0%,var(--pricing-wash),transparent 72%);opacity:var(--pricing-active);transition:opacity 320ms var(--ease)}
+.pricing-layout .price-card .pill{transition:background-color 240ms,border-color 240ms;color:#263B36}
+.pricing-layout .price-card .price{transition:color 260ms var(--ease)}
+.pricing-layout .price-card .check-list li{transition:border-color 260ms}
+.pricing-layout .price-card .check-list li:before{transition:color 260ms,transform 260ms var(--ease)}
+.pricing-layout .price-card .button>.icon{transition:transform 260ms var(--ease)}
+.pricing-layout .price-card:focus-within{--pricing-active:1;border-color:var(--pricing-accent);box-shadow:0 18px 44px #263B361A}
+.pricing-layout .price-card:focus-within .price{color:var(--pricing-accent)}
+.pricing-layout .price-card:focus-within .pill{background:#FFFFFFB3;border-color:var(--pricing-accent)}
+.pricing-layout .price-card:focus-within .check-list li{border-color:#9EBAAC}
+.pricing-layout .price-card:focus-within .check-list li:before{color:var(--pricing-accent)}
+@media(hover:hover) and (pointer:fine){
+ .pricing-layout .price-card:hover{--pricing-active:1;transform:translateY(-6px);border-color:var(--pricing-accent);box-shadow:0 22px 48px #263B361A}
+ .pricing-layout .price-card:hover .price{color:var(--pricing-accent)}
+ .pricing-layout .price-card:hover .pill{background:#FFFFFFB3;border-color:var(--pricing-accent)}
+ .pricing-layout .price-card:hover .check-list li{border-color:#9EBAAC}
+ .pricing-layout .price-card:hover .check-list li:before{color:var(--pricing-accent);transform:translateX(2px)}
+ .pricing-layout .primary-price:hover .button>.icon{transform:translateX(4px)}
+}
+@media(prefers-reduced-motion:reduce){.pricing-layout .price-card,.pricing-layout .price-card *,.pricing-layout .price-card:before,.pricing-layout .price-card *:before{transition:none!important;transform:none!important}}
+.reduced-motion .pricing-layout .price-card,.reduced-motion .pricing-layout .price-card *,.reduced-motion .pricing-layout .price-card:before,.reduced-motion .pricing-layout .price-card *:before{transition:none!important;transform:none!important}
