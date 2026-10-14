@@ -1,0 +1,782 @@
+[
+  {
+    "route": "/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Connect every exempt sale to its supporting certificate.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/workflows/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Choose the job.Then test the value.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/workflows/transaction-linkage/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "The right evidence.For the right sale.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/workflows/certificate-remediation/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Make the next requestworth reviewing.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/workflows/jurisdiction-checklists/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "State-specific questions.Visible sources.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/workflows/audit-packets/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "A sample withits story intact.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/workflows/monthly-reconciliation/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Your engine. Your GL.One reviewable bridge.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/how-it-works/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "A process youcan inspect.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/use-cases/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Different desks.The same source of truth.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/pilot/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "A small sample.A meaningful decision.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/pricing/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Price the scope.Test the commitment.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/demo/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Follow the evidence.Inspect the decision.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/demo/invoice/TX-091/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "TX-091. Its source.The reason for hold.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/demo/report/sample-01/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Preserve the trail.Keep the unresolved visible.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/demo/examples/florida-expiry/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Expired beforethis sale.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/request-pilot/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Scope a pilot.Start with the owner.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/request-demo/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "A specific workflow.A useful walkthrough.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/early-access/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Follow the research.Keep the scope clear.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/controls/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "A visible boundaryaround every action.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/resources/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Useful questions.Traceable sources.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/resources/exempt-sales-gap-checklist/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "What supportsyour next sample?",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/resources/evidence-and-sources/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Every rule needsa source and a context.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/resources/evaluation-method/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Prove the gap.Then test the budget.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/about/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "A source. A jurisdiction.A reviewer.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/contact/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "The right context.The right next step.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/sign-in/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Enter the preview.Keep real data outside.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/privacy/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "Purpose-limited data.An explicit preview.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/terms/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "The scope ofthis concept.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/privacy-request/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "A clear routefor a privacy request.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/404/",
+    "size": "desktop",
+    "brokenImages": [],
+    "heading": "This path needsa different connection.",
+    "hero": true,
+    "scrollWidth": 1440,
+    "width": 1440
+  },
+  {
+    "route": "/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Connect every exempt sale to its supporting certificate.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/workflows/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Choose the job.Then test the value.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/workflows/transaction-linkage/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "The right evidence.For the right sale.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/workflows/certificate-remediation/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Make the next requestworth reviewing.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/workflows/jurisdiction-checklists/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "State-specific questions.Visible sources.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/workflows/audit-packets/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "A sample withits story intact.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/workflows/monthly-reconciliation/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Your engine. Your GL.One reviewable bridge.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/how-it-works/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "A process youcan inspect.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/use-cases/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Different desks.The same source of truth.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/pilot/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "A small sample.A meaningful decision.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/pricing/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Price the scope.Test the commitment.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/demo/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Follow the evidence.Inspect the decision.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/demo/invoice/TX-091/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "TX-091. Its source.The reason for hold.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/demo/report/sample-01/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Preserve the trail.Keep the unresolved visible.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/demo/examples/florida-expiry/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Expired beforethis sale.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/request-pilot/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Scope a pilot.Start with the owner.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/request-demo/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "A specific workflow.A useful walkthrough.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/early-access/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Follow the research.Keep the scope clear.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/controls/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "A visible boundaryaround every action.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/resources/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Useful questions.Traceable sources.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/resources/exempt-sales-gap-checklist/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "What supportsyour next sample?",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/resources/evidence-and-sources/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Every rule needsa source and a context.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/resources/evaluation-method/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Prove the gap.Then test the budget.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/about/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "A source. A jurisdiction.A reviewer.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/contact/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "The right context.The right next step.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/sign-in/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Enter the preview.Keep real data outside.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/privacy/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "Purpose-limited data.An explicit preview.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/terms/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "The scope ofthis concept.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/privacy-request/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "A clear routefor a privacy request.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/404/",
+    "size": "mobile",
+    "brokenImages": [],
+    "heading": "This path needsa different connection.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/",
+    "size": "mobile-final",
+    "heading": "Connect every exempt sale to its supporting certificate.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/workflows/",
+    "size": "mobile-final",
+    "heading": "Choose the job.Then test the value.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/workflows/transaction-linkage/",
+    "size": "mobile-final",
+    "heading": "The right evidence.For the right sale.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/workflows/certificate-remediation/",
+    "size": "mobile-final",
+    "heading": "Make the next requestworth reviewing.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/workflows/jurisdiction-checklists/",
+    "size": "mobile-final",
+    "heading": "State-specific questions.Visible sources.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/workflows/audit-packets/",
+    "size": "mobile-final",
+    "heading": "A sample withits story intact.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/workflows/monthly-reconciliation/",
+    "size": "mobile-final",
+    "heading": "Your engine. Your GL.One reviewable bridge.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/how-it-works/",
+    "size": "mobile-final",
+    "heading": "A process youcan inspect.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/use-cases/",
+    "size": "mobile-final",
+    "heading": "Different desks.The same source of truth.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/pilot/",
+    "size": "mobile-final",
+    "heading": "A small sample.A meaningful decision.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/pricing/",
+    "size": "mobile-final",
+    "heading": "Price the scope.Test the commitment.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/demo/",
+    "size": "mobile-final",
+    "heading": "Follow the evidence.Inspect the decision.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/demo/invoice/TX-091/",
+    "size": "mobile-final",
+    "heading": "TX-091. Its source.The reason for hold.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/demo/report/sample-01/",
+    "size": "mobile-final",
+    "heading": "Preserve the trail.Keep the unresolved visible.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/demo/examples/florida-expiry/",
+    "size": "mobile-final",
+    "heading": "Expired beforethis sale.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/request-pilot/",
+    "size": "mobile-final",
+    "heading": "Scope a pilot.Start with the owner.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/request-demo/",
+    "size": "mobile-final",
+    "heading": "A specific workflow.A useful walkthrough.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/early-access/",
+    "size": "mobile-final",
+    "heading": "Follow the research.Keep the scope clear.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/controls/",
+    "size": "mobile-final",
+    "heading": "A visible boundaryaround every action.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/resources/",
+    "size": "mobile-final",
+    "heading": "Useful questions.Traceable sources.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/resources/exempt-sales-gap-checklist/",
+    "size": "mobile-final",
+    "heading": "What supportsyour next sample?",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/resources/evidence-and-sources/",
+    "size": "mobile-final",
+    "heading": "Every rule needsa source and a context.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/resources/evaluation-method/",
+    "size": "mobile-final",
+    "heading": "Prove the gap.Then test the budget.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/about/",
+    "size": "mobile-final",
+    "heading": "A source. A jurisdiction.A reviewer.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/contact/",
+    "size": "mobile-final",
+    "heading": "The right context.The right next step.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/sign-in/",
+    "size": "mobile-final",
+    "heading": "Enter the preview.Keep real data outside.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/privacy/",
+    "size": "mobile-final",
+    "heading": "Purpose-limited data.An explicit preview.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/terms/",
+    "size": "mobile-final",
+    "heading": "The scope ofthis concept.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/privacy-request/",
+    "size": "mobile-final",
+    "heading": "A clear routefor a privacy request.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "route": "/404/",
+    "size": "mobile-final",
+    "heading": "This path needsa different connection.",
+    "hero": true,
+    "scrollWidth": 390,
+    "width": 390
+  }
+]

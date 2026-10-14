@@ -1,0 +1,19 @@
+{
+  "mode": "preview_only_no_external_transport",
+  "envelope": ["event_id", "event_time", "session_id", "page_id", "content_version", "test_mode", "utm_source", "utm_campaign"],
+  "implemented": {
+    "landing_view": "Home view; no qualification inferred",
+    "offer_14_selected": "Selected offer ID 1–5 in navigation or intake; concept_id 14",
+    "demo_open": "Synthetic workbench usable",
+    "evidence_view": "Fictional source pane opened",
+    "override_view": "Scripted correction inspected",
+    "price_view": "Hypothetical pricing card meaningfully viewed"
+  },
+  "requires_live_process": {
+    "buyer_qualified": "Human-assessed or explicitly self-reported target-buyer fit with qualification basis; not scrolling",
+    "pilot_request": "Consented inquiry successfully delivered and stored; not a local draft or purchase",
+    "consent_submit": "Scoped consent successfully recorded by real delivery/storage service"
+  },
+  "excluded": ["email", "raw customer identifiers", "free text", "financial amounts", "raw case data", "documents", "full URLs", "sensitive query strings"],
+  "delivery_requirements": ["Idempotent event_id", "CRM qualified-lead deduplication by normalized email in restricted store", "Opaque lead IDs in analytics", "Consent evidence separately stored", "Approved privacy/operator details"]
+}

@@ -1,0 +1,17 @@
+FUNCTIONAL VERIFICATION / 14 OCTOBER 2026
+Desktop 1440x900 and mobile 390x844: all 30 routes checked for heading, unique hero presence and page-level horizontal overflow; no failures. Final mobile pass followed the route-specific diagram refinement.
+Desktop workflow mega menu exposes all five offers. Escape closes it and returns focus to its trigger.
+Mobile native-dialog navigation exposes equivalent destinations. Escape closes and returns focus to Open navigation. Workflow expansion and route navigation verified.
+Deterministic demo: empty correction reason rejected; scripted reason accepted; entity/state hold retained; approval labeled unsent; Send disabled; CE-31 added with separate review; final fixture counts 2 held / 3 completed; original CE-21 retained in history/report.
+Packet download produced a local DEMO text file. Report reflected the scripted source lineage. Changed states use separate illustrative versions.
+Pilot form: required fields/consent validation failed appropriately; fictional example.com input produced an explicitly local, not-delivered draft.
+Browser console error/warning inspection: no entries at checked pass.
+Static checks: 31 HTML files, 30 IA routes, local anchors/assets, one H1, SVG XML parsing, ten unique fixtures and USD 16,000 control total.
+Reduced-motion and offscreen/hidden pause are implemented in CSS/JS. Manual pause and preference wiring were reviewed; OS preference emulation is not claimed.
+No full assistive-technology or WCAG conformance audit is claimed. No real form delivery, credential service, sensitive input, external action, customer sending or purchase was tested or enabled.
+Final refinement: explicit New Jersey/Florida sandbox buttons verified. New Jersey opens Held / modified scenario, reopens review and blocks the canonical approval path. Reset restores initial fixture.
+Record tabs verified with ArrowRight: focus and selected tab moved from Evidence to Correction.
+Final JSON packet verified as v9 after nine scripted states, with 10 records, USD 16,000, seven unresolved fixtures and CE-21/CE-31 lineage.
+Tablet 834px homepage: no page-level overflow.
+Dark controls hero pattern corrected and visually rechecked; text and outlined CTA are legible on the deep surface.
+Manual Pause verified in-browser: body motion-paused class active and SVG trace animation-play-state paused. Resume verified.

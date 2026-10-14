@@ -1,0 +1,12 @@
+{
+  "scope":"Synthetic fixtures only; all people, organizations and records invented",
+  "transaction":{"id":"unique string","date":"ISO date","buyer":"fictional legal entity string","amount":"integer minor USD units","certificate":"candidate certificate string or null","state":"Held, Pending, Completed, Rejected or Approved fixture status","reason":"review question or scripted disposition","owner":"fictional reviewer"},
+  "evidence":{"original":"CE-21/v1","replacement":"CE-31/v1 after scripted response","source_span":"entity, jurisdiction, signature region","original_named_entity":"Blue Mesa Supply West LLC","original_jurisdiction":"New Jersey","signed_date":"2026-01-05","received_date":"2026-04-10","imported_expiry":"2026-03-31","imported_expiry_status":"unverified; rejected as universal NY expiry inference","replacement_signed_and_received":"2026-04-22"},
+  "state":{"step":"integer 0–8","reason":"required nonempty correction text before scripted transition","modified":"boolean; reopens review and blocks canonical approval","scenarioJurisdiction":"New York, New Jersey or Florida"},
+  "packet":{"label":"persistent DEMO / SYNTHETIC DATA / CONCEPT PREVIEW","version":"scripted state version plus sandbox suffix where needed","original_candidate":"retained source reference","reviewed_evidence":"separate synthetic reviewer evidence reference","outreach_state":"approval separate from delivery; always unsent","review_events":"fixed scripted timestamps in America/New_York","unresolved_exceptions":"original unresolved fixtures excluding reviews completed in simulation","immutable_storage":"not established by local export"},
+  "record_total_minor":1600000,
+  "initial_counts":{"Held":3,"Pending":3,"Completed":2,"Rejected":1,"Approved":1},
+  "final_counts":{"Held":2,"Pending":3,"Completed":3,"Rejected":1,"Approved":1},
+  "florida":"TX-F01 USD 500 / CE-F25 prior-year annual resale certificate, excluded from NY sample and totals",
+  "prohibited_side_effects":["real send","filing","tax determination","payment","ERP/GL/bank write","sensitive-record upload"]
+}

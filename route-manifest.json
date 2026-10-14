@@ -1,0 +1,182 @@
+[
+  {
+    "route": "/",
+    "title": "Connect every exempt sale to its supporting certificate",
+    "hero": "visuals/heroes/hero-home.svg",
+    "sections": 10
+  },
+  {
+    "route": "/workflows",
+    "title": "Five proposed evidence workflows",
+    "hero": "visuals/heroes/hero-workflows.svg",
+    "sections": 6
+  },
+  {
+    "route": "/how-it-works",
+    "title": "The reviewed evidence loop",
+    "hero": "visuals/heroes/hero-how-it-works.svg",
+    "sections": 5
+  },
+  {
+    "route": "/use-cases",
+    "title": "For tax leads, controllers and advisers",
+    "hero": "visuals/heroes/hero-use-cases.svg",
+    "sections": 5
+  },
+  {
+    "route": "/pilot",
+    "title": "A bounded 100-sale pilot",
+    "hero": "visuals/heroes/hero-pilot.svg",
+    "sections": 6
+  },
+  {
+    "route": "/pricing",
+    "title": "Hypothetical pilot pricing",
+    "hero": "visuals/heroes/hero-pricing.svg",
+    "sections": 5
+  },
+  {
+    "route": "/resources",
+    "title": "Evidence research and practical guides",
+    "hero": "visuals/heroes/hero-resources.svg",
+    "sections": 4
+  },
+  {
+    "route": "/resources/exempt-sales-gap-checklist",
+    "title": "Exempt-sales gap checklist",
+    "hero": "visuals/heroes/hero-resources-exempt-sales-gap-checklist.svg",
+    "sections": 4
+  },
+  {
+    "route": "/resources/evidence-and-sources",
+    "title": "Dated evidence and official sources",
+    "hero": "visuals/heroes/hero-resources-evidence-and-sources.svg",
+    "sections": 4
+  },
+  {
+    "route": "/resources/evaluation-method",
+    "title": "Evaluate incremental evidence value",
+    "hero": "visuals/heroes/hero-resources-evaluation-method.svg",
+    "sections": 5
+  },
+  {
+    "route": "/controls",
+    "title": "Controls, data and human authority",
+    "hero": "visuals/heroes/hero-controls.svg",
+    "sections": 6
+  },
+  {
+    "route": "/about",
+    "title": "About the ExemptLink research",
+    "hero": "visuals/heroes/hero-about.svg",
+    "sections": 5
+  },
+  {
+    "route": "/request-pilot",
+    "title": "Discuss a proposed pilot",
+    "hero": "visuals/heroes/hero-request-pilot.svg",
+    "sections": 3
+  },
+  {
+    "route": "/request-demo",
+    "title": "Request a concept walkthrough",
+    "hero": "visuals/heroes/hero-request-demo.svg",
+    "sections": 3
+  },
+  {
+    "route": "/early-access",
+    "title": "Purpose-limited research updates",
+    "hero": "visuals/heroes/hero-early-access.svg",
+    "sections": 3
+  },
+  {
+    "route": "/contact",
+    "title": "Start a business-context conversation",
+    "hero": "visuals/heroes/hero-contact.svg",
+    "sections": 3
+  },
+  {
+    "route": "/privacy-request",
+    "title": "Prepare a privacy request",
+    "hero": "visuals/heroes/hero-privacy-request.svg",
+    "sections": 3
+  },
+  {
+    "route": "/sign-in",
+    "title": "Enter the isolated preview",
+    "hero": "visuals/heroes/hero-sign-in.svg",
+    "sections": 2
+  },
+  {
+    "route": "/privacy",
+    "title": "Concept-stage privacy notice",
+    "hero": "visuals/heroes/hero-privacy.svg",
+    "sections": 2
+  },
+  {
+    "route": "/terms",
+    "title": "Concept-stage terms",
+    "hero": "visuals/heroes/hero-terms.svg",
+    "sections": 2
+  },
+  {
+    "route": "/demo",
+    "title": "Synthetic evidence-review demo",
+    "hero": "visuals/heroes/hero-demo.svg",
+    "sections": 3
+  },
+  {
+    "route": "/demo/invoice/TX-091",
+    "title": "Synthetic invoice TX-091",
+    "hero": "visuals/heroes/hero-demo-invoice-TX-091.svg",
+    "sections": 3
+  },
+  {
+    "route": "/demo/report/sample-01",
+    "title": "Illustrative sample packet",
+    "hero": "visuals/heroes/hero-demo-report-sample-01.svg",
+    "sections": 3
+  },
+  {
+    "route": "/demo/examples/florida-expiry",
+    "title": "Separate Florida expiry example",
+    "hero": "visuals/heroes/hero-demo-examples-florida-expiry.svg",
+    "sections": 4
+  },
+  {
+    "route": "/404",
+    "title": "Page not found",
+    "hero": "visuals/heroes/hero-404.svg",
+    "sections": 2
+  },
+  {
+    "route": "/workflows/transaction-linkage",
+    "title": "Transaction linkage / proposed workflow",
+    "hero": "visuals/heroes/hero-workflows-transaction-linkage.svg",
+    "sections": 8
+  },
+  {
+    "route": "/workflows/certificate-remediation",
+    "title": "Certificate remediation / proposed workflow",
+    "hero": "visuals/heroes/hero-workflows-certificate-remediation.svg",
+    "sections": 8
+  },
+  {
+    "route": "/workflows/jurisdiction-checklists",
+    "title": "Jurisdiction checklists / proposed workflow",
+    "hero": "visuals/heroes/hero-workflows-jurisdiction-checklists.svg",
+    "sections": 8
+  },
+  {
+    "route": "/workflows/audit-packets",
+    "title": "Audit sample packets / proposed workflow",
+    "hero": "visuals/heroes/hero-workflows-audit-packets.svg",
+    "sections": 8
+  },
+  {
+    "route": "/workflows/monthly-reconciliation",
+    "title": "Monthly reconciliation / proposed workflow",
+    "hero": "visuals/heroes/hero-workflows-monthly-reconciliation.svg",
+    "sections": 8
+  }
+]

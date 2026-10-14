@@ -1,0 +1,6 @@
+const fs=require('fs'),path=require('path');
+const out=path.join(__dirname,'../dist/assets/brand');
+const symbol=fs.readFileSync(out+'/symbol-primary.svg','utf8').replace(/<svg[^>]+>/,'<g transform="translate(900,80) scale(.75)">').replace('</svg>','</g>');
+const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630"><rect width="1200" height="630" fill="#F7F8F4"/><path d="M0 540H1200" stroke="#D5DED7"/><text x="70" y="118" font-family="Arial,sans-serif" font-size="32" fill="#263B36">ExemptLink</text><text x="70" y="267" font-family="Arial,sans-serif" font-size="52" fill="#263B36">Every exempt sale.</text><text x="70" y="337" font-family="Arial,sans-serif" font-size="52" fill="#263B36">Its supporting evidence.</text><text x="70" y="425" font-family="Arial,sans-serif" font-size="23" fill="#5D6C65">US sales-tax exemption evidence / human-reviewed concept</text><text x="70" y="585" font-family="Arial,sans-serif" font-size="16" fill="#5D6C65">RESEARCH-STAGE CONCEPT · SYNTHETIC DEMO</text>${symbol}</svg>`;
+fs.writeFileSync(out+'/social-preview.svg',svg);
+require(process.env.SHARP_MODULE||'sharp')(Buffer.from(svg)).png().toFile(out+'/social-preview.png').then(()=>console.log('Social metadata preview rendered.'));
