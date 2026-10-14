@@ -1,0 +1,309 @@
+{
+  "desktopRoutes": [
+    {
+      "left": 20,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 13,
+      "route": "/",
+      "targets": 33
+    },
+    {
+      "left": 11,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 8,
+      "route": "/workflows/",
+      "targets": 19
+    },
+    {
+      "left": 15,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 8,
+      "route": "/workflows/transaction-linkage/",
+      "targets": 23
+    },
+    {
+      "left": 15,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 8,
+      "route": "/workflows/certificate-remediation/",
+      "targets": 23
+    },
+    {
+      "left": 15,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 8,
+      "route": "/workflows/jurisdiction-checklists/",
+      "targets": 23
+    },
+    {
+      "left": 15,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 8,
+      "route": "/workflows/audit-packets/",
+      "targets": 23
+    },
+    {
+      "left": 15,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 8,
+      "route": "/workflows/monthly-reconciliation/",
+      "targets": 23
+    },
+    {
+      "left": 7,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 6,
+      "route": "/how-it-works/",
+      "targets": 13
+    },
+    {
+      "left": 10,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 7,
+      "route": "/use-cases/",
+      "targets": 17
+    },
+    {
+      "left": 8,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 7,
+      "route": "/pilot/",
+      "targets": 15
+    },
+    {
+      "left": 4,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 4,
+      "route": "/pricing/",
+      "targets": 8
+    },
+    {
+      "left": 3,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 1,
+      "route": "/demo/",
+      "targets": 4
+    },
+    {
+      "left": 3,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 1,
+      "route": "/demo/invoice/TX-091/",
+      "targets": 4
+    },
+    {
+      "left": 3,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 1,
+      "route": "/demo/report/sample-01/",
+      "targets": 4
+    },
+    {
+      "left": 3,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 3,
+      "route": "/demo/examples/florida-expiry/",
+      "targets": 6
+    },
+    {
+      "left": 4,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 1,
+      "route": "/request-pilot/",
+      "targets": 5
+    },
+    {
+      "left": 4,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 1,
+      "route": "/request-demo/",
+      "targets": 5
+    },
+    {
+      "left": 4,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 1,
+      "route": "/early-access/",
+      "targets": 5
+    },
+    {
+      "left": 7,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 7,
+      "route": "/controls/",
+      "targets": 14
+    },
+    {
+      "left": 5,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 3,
+      "route": "/resources/",
+      "targets": 8
+    },
+    {
+      "left": 10,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 7,
+      "route": "/resources/exempt-sales-gap-checklist/",
+      "targets": 17
+    },
+    {
+      "left": 5,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 4,
+      "route": "/resources/evidence-and-sources/",
+      "targets": 9
+    },
+    {
+      "left": 6,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 6,
+      "route": "/resources/evaluation-method/",
+      "targets": 12
+    },
+    {
+      "left": 7,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 6,
+      "route": "/about/",
+      "targets": 13
+    },
+    {
+      "left": 4,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 1,
+      "route": "/contact/",
+      "targets": 5
+    },
+    {
+      "left": 0,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 0,
+      "route": "/sign-in/",
+      "targets": 0
+    },
+    {
+      "left": 5,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 4,
+      "route": "/privacy/",
+      "targets": 9
+    },
+    {
+      "left": 5,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 4,
+      "route": "/terms/",
+      "targets": 9
+    },
+    {
+      "left": 4,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 1,
+      "route": "/privacy-request/",
+      "targets": 5
+    },
+    {
+      "left": 2,
+      "overflow": false,
+      "protectedAnimated": 0,
+      "right": 1,
+      "route": "/404/",
+      "targets": 3
+    }
+  ],
+  "mobile": [
+    {
+      "overflow": false,
+      "route": "/",
+      "runningEntries": 4,
+      "sides": [
+        "left",
+        "right"
+      ]
+    },
+    {
+      "overflow": false,
+      "route": "/how-it-works/",
+      "runningEntries": 3,
+      "sides": [
+        "left",
+        "right"
+      ]
+    },
+    {
+      "overflow": false,
+      "route": "/pilot/",
+      "runningEntries": 7,
+      "sides": [
+        "left",
+        "right"
+      ]
+    },
+    {
+      "overflow": false,
+      "route": "/resources/",
+      "runningEntries": 2,
+      "sides": [
+        "left"
+      ]
+    },
+    {
+      "overflow": false,
+      "route": "/request-pilot/",
+      "runningEntries": 1,
+      "sides": [
+        "left"
+      ]
+    },
+    {
+      "overflow": false,
+      "route": "/privacy/",
+      "runningEntries": 4,
+      "sides": [
+        "left",
+        "right"
+      ]
+    },
+    {
+      "overflow": false,
+      "route": "/demo/",
+      "runningEntries": 0,
+      "sides": []
+    }
+  ],
+  "upwardReplayVerified": true,
+  "pauseVerified": true,
+  "reducedMotion": "Complete still state via media preference and body class",
+  "implementation": "IntersectionObserver + Web Animations API; native scrolling",
+  "consoleErrors": []
+}
