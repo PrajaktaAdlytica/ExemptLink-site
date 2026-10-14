@@ -1,0 +1,20 @@
+{
+  "route": "/resources/evaluation-method/",
+  "evaluation_steps": 4,
+  "criteria_cards": 2,
+  "hover_lift_px": 4,
+  "viewports": [
+    [
+      775,
+      804
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "mobile_card_width_px": 350,
+  "horizontal_overflow": false,
+  "console_errors": [],
+  "reduced_motion": "Transforms/transitions disabled by CSS"
+}
