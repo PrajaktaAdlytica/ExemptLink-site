@@ -1,0 +1,4 @@
+# Static multi-page deployment for Hostinger PHP/HTML hosting.
+DirectoryIndex index.html
+Options -Indexes
+ErrorDocument 404 /404.html
