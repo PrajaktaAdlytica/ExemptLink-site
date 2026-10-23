@@ -69,7 +69,7 @@
     "route": "/about",
     "title": "About the ExemptLink research",
     "hero": "visuals/heroes/hero-about.svg",
-    "sections": 5
+    "sections": 6
   },
   {
     "route": "/request-pilot",
